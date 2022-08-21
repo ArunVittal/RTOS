@@ -1,0 +1,8 @@
+0000000000000000000000000000000000000000 5e1947253998cba3d6f40380a7f1e8329bce09fb ArunVittal <arunvittal05@gmail.com> 1661064614 +0530	commit (initial): Hello World
+5e1947253998cba3d6f40380a7f1e8329bce09fb 5e1947253998cba3d6f40380a7f1e8329bce09fb ArunVittal <arunvittal05@gmail.com> 1661064634 +0530	Branch: renamed refs/heads/master to refs/heads/main
+5e1947253998cba3d6f40380a7f1e8329bce09fb 6da5d618e2640688dd872c3ee7823481e1977b5f ArunVittal <arunvittal05@gmail.com> 1661065133 +0530	commit: LED BLINK
+6da5d618e2640688dd872c3ee7823481e1977b5f 51a0a76433622ed58cc53ac8cf22dfcda49ac1b8 ArunVittal <arunvittal05@gmail.com> 1661079172 +0530	commit: MULTIPLETASK_CREATION
+51a0a76433622ed58cc53ac8cf22dfcda49ac1b8 c7c18b1a55f3ba5c040dff51bc97ecf2b344e496 ArunVittal <arunvittal05@gmail.com> 1661079779 +0530	commit: TASK_CREATION
+c7c18b1a55f3ba5c040dff51bc97ecf2b344e496 a207fef8deae3c7f9216b0adf1a63394d3810f8f ArunVittal <arunvittal05@gmail.com> 1661080021 +0530	commit: ONE_SHOT_TIMER
+a207fef8deae3c7f9216b0adf1a63394d3810f8f 2d99e08c94932d36309dc99c5df9052c2cc91d55 ArunVittal <arunvittal05@gmail.com> 1661080575 +0530	commit: FREE_RUNNING_TIMER
+2d99e08c94932d36309dc99c5df9052c2cc91d55 df0c59cac23f257cacb73f8a9d6e7f5b9fa6a8cb ArunVittal <arunvittal05@gmail.com> 1661080955 +0530	commit: BINARY_SEMAPHORE
