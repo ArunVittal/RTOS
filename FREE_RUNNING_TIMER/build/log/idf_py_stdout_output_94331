@@ -1,0 +1,19 @@
+[1/9] Performing build step for 'bootloader'
+[1/1] cd /home/arunvittal/RTOS/FREE_RUNNING_TIMER/build/bootloader/esp-idf/esptool_py && /home/arunvittal/.espressif/python_env/idf5.1_py3.10_env/bin/python /home/arunvittal/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/arunvittal/RTOS/FREE_RUNNING_TIMER/build/bootloader/bootloader.bin
+Bootloader binary size 0x66c0 bytes. 0x940 bytes (8%) free.
+[2/7] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/FREE_RUNNING_TIMER.c.obj
+/home/arunvittal/RTOS/FREE_RUNNING_TIMER/main/FREE_RUNNING_TIMER.c: In function 'app_main':
+/home/arunvittal/RTOS/FREE_RUNNING_TIMER/main/FREE_RUNNING_TIMER.c:27:16: warning: variable 'res' set but not used [-Wunused-but-set-variable]
+   27 |     BaseType_t res;
+      |                ^~~
+[3/7] Linking C static library esp-idf/main/libmain.a
+[4/7] Generating ld/sections.ld
+[5/7] Linking CXX executable FREE_RUNNING_TIMER.elf
+[6/7] Generating binary image from built executable
+esptool.py v4.2.1
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /home/arunvittal/RTOS/FREE_RUNNING_TIMER/build/FREE_RUNNING_TIMER.bin
+[7/7] cd /home/arunvittal/RTOS/FREE_RUNNING_TIMER/build/esp-idf/esptool_py && /home/arunvittal/.espressif/python_env/idf5.1_py3.10_env/bin/python /home/arunvittal/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/arunvittal/RTOS/FREE_RUNNING_TIMER/build/partition_table/partition-table.bin /home/arunvittal/RTOS/FREE_RUNNING_TIMER/build/FREE_RUNNING_TIMER.bin
+FREE_RUNNING_TIMER.bin binary size 0x2ba40 bytes. Smallest app partition is 0x100000 bytes. 0xd45c0 bytes (83%) free.
